@@ -42,6 +42,9 @@ export interface CameraPreviewOptions {
 
   /** On Android disable automatic rotation of the image and stripping of Exit header. default false */
   disableExifHeaderStripping?: boolean;
+  
+  /** Capture images to a file and return back the file path instead of returning base64 encoded data */
+  storeToFile?: boolean;
 }
 
 export interface CameraPreviewPictureOptions {
